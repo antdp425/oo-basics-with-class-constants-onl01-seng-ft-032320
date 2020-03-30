@@ -6,7 +6,9 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    BRANDS << @brand
+    if !BRANDS.any? do |brand|
+      brand == @brand
+    end
   end
 
   def cobble
