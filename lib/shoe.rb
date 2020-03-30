@@ -6,10 +6,6 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    if !BRANDS.any? do |brand|
-      brand == @brand
-      end
-    end
   end
 
   def cobble
