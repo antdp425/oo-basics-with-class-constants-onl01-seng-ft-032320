@@ -8,6 +8,7 @@ BRANDS = []
     @brand = brand
     if !BRANDS.any? do |brand|
       brand == @brand
+      end
     end
   end
 
